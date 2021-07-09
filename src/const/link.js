@@ -1,4 +1,4 @@
-import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai';
+// import { AiOutlineTwitter, AiFillYoutube } from 'react-icons/ai';
 
 // import { TiSocialInstagram } from 'react-icons/ti';
 // import { FaPinterestP, FaFacebookF } from 'react-icons/fa';
@@ -113,7 +113,7 @@ export default [
     name: 'FOLLOW US ON',
     childLink: [
       {
-        icon: <AiOutlineTwitter />,
+        icon: null,
         name: 'Twitter',
         url: '',
       },
@@ -133,7 +133,7 @@ export default [
         url: '',
       },
       {
-        icon: <AiFillYoutube />,
+        icon: null,
         name: 'Youtube',
         url: '',
       },
