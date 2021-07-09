@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100% !important;
+}
+
+.footer {
+	background-color: black !important;
+}
+
+* {
+	font-family: 'Poppins';
+}
