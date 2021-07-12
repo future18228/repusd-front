@@ -3,7 +3,7 @@ import { Card, Button } from 'antd';
 
 import './style.css';
 
-const LandingComponent = (...rest) => {
+const LandingComponent = (props) => {
 	const goToDashboard = () => {
 		window.location.href = '/dashboard';
 	}

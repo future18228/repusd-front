@@ -1,0 +1,26 @@
+.fees-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fees-list-container {
+    width: 75%;
+    margin: 20px 0;
+}
+
+.fees-list-table-title {
+    font-size: 35.25pt;
+    font-weight: bold;
+}
+
+.fees-list-table-setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px 24px;
+}
+
+.fees-list-table-setting-right {
+    display: flex;
+}

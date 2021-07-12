@@ -1,0 +1,30 @@
+.user-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-list-container {
+    width: 75%;
+    margin: 20px 0;
+}
+
+.user-list-table-title {
+    font-size: 35.25pt;
+    font-weight: bold;
+}
+
+.user-list-table-setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px 24px;
+}
+
+.table-setting-right {
+    display: flex;
+}
+
+.user-list-table-setting-right {
+    display: flex;
+}
