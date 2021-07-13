@@ -25,7 +25,7 @@ const { Header, Content, Footer } = Layout;
 const Routes = () => {
     const [activatingConnector, setActivatingConnector] = useState();
     const web3Context = useWeb3React();
-    const { connector, library, chainId, account, deactivate, activate } = web3Context;
+    const { connector, library, chainId, account, deactivate, activate, error } = web3Context;
     const { location: { pathname } } = history;
 
     useEffect(() => {
@@ -45,6 +45,7 @@ const Routes = () => {
                 account,
                 chainId,
                 deactivate,
+                error,
             }}
         >
             <Layout className="container">

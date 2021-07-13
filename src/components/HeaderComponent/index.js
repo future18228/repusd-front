@@ -31,7 +31,6 @@ export default (props) => {
 	}
 
 	const navigatePage = (item) => {
-		console.log(account)
 		if (account) {
 			item.url === "/connect_wallet" 
 				? setIsModalVisible(true)
