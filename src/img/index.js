@@ -4,7 +4,7 @@ import AaveMarketImage from './aave-market.png';
 import AaveV1MarketImage from './aave-v1-market.png';
 import AaveV2MarketImage from './aave-v2-market.png';
 import AmmMarketImage from './amm-market.png';
-
+import MetaMaskImage from './MetaMask.png';
 
 export {
   RepusdMark,
@@ -13,4 +13,5 @@ export {
   AaveV1MarketImage,
   AaveV2MarketImage,
   AmmMarketImage,
+  MetaMaskImage,
 }

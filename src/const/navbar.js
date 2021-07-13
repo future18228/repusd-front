@@ -5,7 +5,7 @@ export default [
 	},
 	{
 		title: 'MY DASHBOARD',
-		url: '/dashboard',
+		url: '/',
 	},
 	{
 		title: 'MY REPUTATION',

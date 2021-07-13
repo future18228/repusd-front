@@ -31,7 +31,7 @@ for (let i = 1; i <= 100; i++) {
 export default props => {
     const { path } = props;
     const [pageSize, setPageSize] = useState(10);
-    const isDashboard = path === '/dashboard' ? true : false;
+    const isDashboard = path === '/' ? true : false;
 
     const onSearch = seachKey => {
         console.log('seach key: ', seachKey);
